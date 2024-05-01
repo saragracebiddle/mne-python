@@ -43,6 +43,7 @@ __all__ = [
     "read_raw_nirx",
     "read_raw_nsx",
     "read_raw_persyst",
+    "read_raw_portamon",
     "read_raw_snirf",
     "show_fiff",
     "write_fiducials",
@@ -86,4 +87,5 @@ from .nihon import read_raw_nihon
 from .nirx import read_raw_nirx
 from .nsx import read_raw_nsx
 from .persyst import read_raw_persyst
+from .portamon import read_raw_portamon
 from .snirf import read_raw_snirf
